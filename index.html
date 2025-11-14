@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portafolio – Desarrolladora Full Stack Junior</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container nav">
+            <a href="#top" class="brand" aria-label="Inicio">
+                <span class="logo"><img class="logoImage" src="./assets/img/logoPortTransp.png"></span>
+                <span>Cristina <span class="muted">• Dev</span></span>
+            </a>
+            <nav class="navlinks" aria-label="Principal">
+                <a href="#about">Sobre mí</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Proyectos</a>
+                <a href="#contact" class="active">Contacto</a>
+                <!--<a href="#contact" class="btn contact-cta">Contacto</a>-->
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <main id="top" class="container section hero">
+        <div class="hero-col">
+            <div class="pill">Disponible para proyectos freelance</div>
+            <h1 class="headline">Soy <span>Cristina</span><br /> Desarrolladora <span>Full&nbsp;Stack Junior</span></h1>
+            <p class="hero-sub">Construyo interfaces modernas con **HTML, CSS, JavaScript y React**. También creo APIs
+                con **Java & Spring Boot**. Me enfoco en performance, accesibilidad y un diseño limpio.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn">Ver mis proyectos</a>
+                <a href="#contact" class="btn outline" aria-label="Abrir contacto">Hablemos</a>
+            </div>
+            <!--<div class="hero-badges">
+                <div class="badge pill">Calificación clientes ★★★★★</div>
+                <div class="badge pill">Entrega puntual</div>
+            </div>-->
+        </div>
+        <div class="hero-col">
+            <div class="hero-card">
+                <div class="inner">
+                    <div class="portrait" aria-label="Foto de perfil"></div>
+                </div>
+                <div class="floating tilt" style="left:-2px; top:18px">
+                    <div class="pill">Mi expertise: Frontend 90%</div>
+                </div>
+                <div class="floating tilt-r" style="right:-2px; bottom:18px">
+                    <div class="pill">Backend 80%</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Who am I -->
+    <section id="about" class="section">
+        <div class="container who">
+            <div class="card">
+                <h2>¿Quién soy?</h2>
+                <p>Hace varios años que trabajo en el sector administrativo y de atención al cliente. Actualmente me
+                    estoy capacitando en programación y he decidido orientar mi carrera profesional hacia esa área, con
+                    el ánimo de continuar aprendiendo y poner en práctica todo lo aprendido. Me gustaría formar parte de
+                    una empresa en la que poder aplicar mis conocimientos y, al mismo tiempo, me permita desarrollarme
+                    profesionalmente.</p>
+                <div style="margin-top:16px">
+                    <a class="btn" href="#projects">Ver proyectos</a>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Qué puedo aportar</h2>
+                <ul class="muted" style="margin:0; padding-left:18px; line-height:1.9">
+                    <li>Maquetación responsive con Flexbox y Grid.</li>
+                    <li>Componentes reutilizables y accesibles.</li>
+                    <li>Integración con APIs, manejo de estado y tests.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h3 class="title center">Mis Skills</h3>
+            <p class="center muted">Un stack moderno para construir experiencias web robustas.</p>
+            <div class="skills-grid">
+                <div class="skill" title="HTML5"><img src="./assets/img/html-5.png" alt="Logo HTML5"> HTML5</div>
+                <div class="skill" title="CSS3"><img src="./assets/img/css_icon.png" alt="Logo CSS3"> CSS3</div>
+                <div class="skill" title="JavaScript"><img src="./assets/img/js.png" alt="Logo JS"> JS</div>
+                <div class="skill" title="Java"><img src="./assets/img/java.png" alt="Logo Java"> Java</div>
+                <!--<div class="skill" title="Next.js">⨯ Next</div>
+                <div class="skill" title="Node.js">🟢 Node</div>
+                <div class="skill" title="TailwindCSS">🌊 Tailwind</div>
+                <div class="skill" title="MongoDB">🍃 MongoDB</div>-->
+                <!--<div class="xp">
+                    <div>
+                        <strong>4</strong>
+                        <div>Años de experiencia</div>
+                    </div>
+                </div>-->
+            </div>
+            <div class="subbar" aria-label="Habilidades adicionales">
+                <span class="badge">Bootstrap</span>
+                <span class="badge">React</span>
+                <span class="badge">Spring Boot</span>
+                <span class="badge">Material UI</span>
+                <span class="badge">Github</span>
+                <span class="badge">PostgreSQL</span>
+                <span class="badge">MySQL</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="grid-2" style="align-items:center">
+                <div>
+                    <h3 class="title">Mis trabajos favoritos</h3>
+                    <p class="muted">Algunos proyectos recientes. Puedo compartir más ejemplos y código a pedido.</p>
+                </div>
+                <div style="text-align:right">
+                    <a class="btn" href="#contact">Ver disponibilidad</a>
+                </div>
+            </div>
+            <div class="projects">
+                <article class="project">
+                    <div class="thumb" role="img" aria-label="Proyecto 1"></div>
+                    <div class="body">
+                        <h4>E-commerce UI</h4>
+                        <p>Catálogo, carrito y checkout con React.</p>
+                    </div>
+                </article>
+                <article class="project">
+                    <div class="thumb"
+                        style="background-image:linear-gradient(135deg, rgba(215,255,91,.2), transparent), url('https://images.unsplash.com/photo-1550439062-609e1531270e?q=80&w=1600&auto=format&fit=crop')"
+                        role="img" aria-label="Proyecto 2"></div>
+                    <div class="body">
+                        <h4>Dashboard Analytics</h4>
+                        <p>Gráficos, filtros y autenticación JWT.</p>
+                    </div>
+                </article>
+                <article class="project">
+                    <div class="thumb"
+                        style="background-image:linear-gradient(135deg, rgba(215,255,91,.2), transparent), url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop')"
+                        role="img" aria-label="Proyecto 3"></div>
+                    <div class="body">
+                        <h4>Landing SaaS</h4>
+                        <p>SEO, performance y animaciones sutiles.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+        <h2>Contacto</h2>
+        <p>¿Te ha gustado algún proyecto en particular de mi portfolio?
+
+            Si deseas obtener más detalles, información específica sobre cómo fue desarrollado, las tecnologías
+            utilizadas o ver el código fuente de algún proyecto, ¡no dudes en escribirme!
+
+            Por favor, utiliza el siguiente formato para tu correo electrónico para que pueda responderte de manera más
+            rápida y precisa:
+
+            Asunto del email: Escribe el nombre del proyecto seguido de "Consulta de Proyecto". Por ejemplo: "[Nombre
+            del Proyecto] - Consulta de Proyecto".
+
+            Cuerpo del email: Cuéntame qué tipo de información te gustaría recibir o qué preguntas tienes.
+
+            ¡Espero tu mensaje!</p>
+        <p>📧 <a href="mailto:tuemail@dominio.com">cris78seijas@gmail.com</a></p>
+        <!--<a href="CV.pdf" download class="cv-button">Descargar CV</a>-->
+    </section>
+
+    <footer>
+        <div class="container">© <span id="year"></span> Cristina — Hecho con ❤️ y Flexbox</div>
+    </footer>
+
+    <script src="./code.js"></script>
+</body>
+
+</html>
