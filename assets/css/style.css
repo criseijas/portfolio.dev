@@ -236,7 +236,7 @@ header {
 .portrait {
     width: 95%;
     aspect-ratio: 3/4;
-    background: radial-gradient(60% 60% at 50% 40%, rgba(215, 255, 91, .25), rgba(17, 24, 39, .0) 60%), url('/assets/img/perfil_transp.png') center/cover;
+    background: radial-gradient(60% 60% at 50% 40%, rgba(215, 255, 91, .25), rgba(17, 24, 39, .0) 60%), url('/assets/img/perfil6.png') center/cover;
     border-radius: 0px;
 }
 
@@ -313,7 +313,7 @@ header {
     line-height: 1
 }
 
-.subbar {
+/*.subbar {
     margin-top: 20px;
     background: rgba(255, 255, 255, .04);
     padding: 14px 18px;
@@ -321,10 +321,32 @@ header {
     display: flex;
     align-items: center;
     gap: 24px;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    justify-content: center;
+}*/
+
+.subbar {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.subbar .badge {
+.badge {
+    background: rgba(255, 255, 255, 0.08);      /* Fondo tipo vidrio */
+    backdrop-filter: blur(6px);                 /* Difuminado */
+    -webkit-backdrop-filter: blur(6px);         /* Compatibilidad */
+    border: 1px solid rgba(255, 255, 255, 0.15);/* Borde suave */
+    padding: 6px 12px;
+    border-radius: 12px;                        /* Forma pill */
+    display: inline-block;
+}
+
+
+/*.subbar .badge {
     display: inline-flex;
     align-items: center;
     gap: 10px;
@@ -332,7 +354,7 @@ header {
     border-radius: 999px;
     background: #1a2030;
     border: 1px solid rgba(255, 255, 255, .06)
-}
+}*/
 
 /* PROJECTS */
 .projects {
@@ -457,6 +479,14 @@ footer {
 
     .navlinks {
         display: none
+    }
+
+    .profile-img {
+        display: none;
+    }
+
+    .hero-card {
+        display: none;
     }
 }
 
